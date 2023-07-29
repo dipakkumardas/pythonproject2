@@ -3,6 +3,8 @@
 # Adding my URL constants. Python -> functions
 
 def base_url():
+    # Change bases on the env.json - Stage , prepared, prod
+    # In Future I will write a logic to change the base url based on the env
     return "https://restful-booker.herokuapp.com"
 
 
